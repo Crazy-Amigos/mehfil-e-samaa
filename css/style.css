@@ -45,7 +45,7 @@ label{
   text-align: left;
 }
 .logo h1 a {
-  font-size: 4em;
+  font-size: 80px;
   margin-top: 0em;
   font-weight: 400;
   color: #000;
@@ -320,6 +320,8 @@ ul.f-icons{
     display: inline-block;
     float: left;
     cursor: pointer;
+        float: right;
+        margin-top: -36px;
    
 }
 	.header-bottom {
@@ -781,6 +783,7 @@ img.lb-image{
 @media (max-width:1366px){
 .header-right {
     width: 24%;
+    margin-top: -120px;
 }
 }
 @media (max-width:1280px){
@@ -876,7 +879,7 @@ img.lb-image{
 /*--responsive design--*/
 @media (max-width: 768px){
 .logo h1 a {
-    font-size: 2em;
+    font-size: 25px;
 }
 .header-top {
     background: url(../images/shape-3.png)no-repeat -13px 0px;
@@ -977,6 +980,7 @@ img.lb-image{
 .header-right {
     width: 39%;
     background-color: #F4E24D;
+    margin-top: -2px;
 }
 .header-right h6 {
     margin-top: 0.55em;
@@ -1108,6 +1112,7 @@ img.lb-image{
 }
 .header-right {
     width: 75%;
+    margin-top: -2px;
 }
 .hd-lt {
     float: right;
@@ -1320,4 +1325,7 @@ img.lb-image{
 .footer p {
     font-size: 0.85em;
 }
+}
+.logoh{
+    width: 40%;
 }
